@@ -1,0 +1,9 @@
+cherrypy
+flask
+paste
+flask_bootstrap
+flask_appconfig
+flask_nav
+
+
+flask_debug
