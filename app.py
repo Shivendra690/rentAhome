@@ -162,7 +162,10 @@ def lawgate():
 def jalandhar():
     return render_template('jalandhar.html')        
 
-
+@app.route('/aboutus')
+@is_logged_in
+def aboutus():
+    return render_template('aboutus.html')
 
 # Logout
 @app.route('/logout')
